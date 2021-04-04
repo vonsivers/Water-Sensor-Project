@@ -8,8 +8,8 @@ The sensor measures the water level and water temperature and sends the data via
 ## Bill of Materials
 
 * 1x [Dragino LSN50v2 Waterproof Sensor LoRa Node](https://www.antratek.de/lsn50-v2-waterproof-lora-sensor-node) 
-* 1x [Dragino LPS8 Indoor LoRaWAN Gateway](https://www.antratek.de/lps8-indoor-lorawan-gateway) (Note: Instead of buying the DS18B20 separately it can already be purchased with the LSN50v2 as a bundle)
-* 1x [DS18B20 Waterproof Temperature Sensor] (https://www.ebay.de/c/24024575509?iid=252715001868)
+* 1x [Dragino LPS8 Indoor LoRaWAN Gateway](https://www.antratek.de/lps8-indoor-lorawan-gateway) 
+* 1x [DS18B20 Waterproof Temperature Sensor](https://www.ebay.de/c/24024575509?iid=252715001868) (Note: Instead of buying the DS18B20 separately it can already be purchased with the LSN50v2 as a bundle)
 * 1x [Taciak Serie 142 Level Sensor, 240-33Ohm, 500mm length](https://www.ebay.de/itm/Tankgeber-Serie-142-240-33-Ohm-L%C3%A4nge-500-mm/254839594214?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649)
 	* Special version with potted cable (1m length) instead of connector
 * 1x [Cable Feedthrough IP68, 3.5-6mm](https://www.ebay.de/itm/3x-InLine-Kabeldurchfuhrung-Nylon-IP68-3-5-6mm-schwarz-10-Stuck-/174716312211?hash=item28ade75a93)
@@ -31,7 +31,7 @@ Both sensors can be read out by the LSN50v2 in the default working mode (MOD=1).
 
 We use the free cuommunity edition of [The Things Stack v3](https://www.thethingsnetwork.org/docs/the-things-stack/index.html) LoRaWAN network server. 
 You have to make an account there and then register both the node and the gateway. 
-In principle the node data can also be received by other already existing gateways on The Things Network (see the [global coverage map](https://www.thethingsnetwork.org/map) but we installed our own gateway nearby to guarantee network coverage.
+In principle the node data can also be received by other already existing gateways on The Things Network (see the [global coverage map](https://www.thethingsnetwork.org/map)) but we installed our own gateway nearby to guarantee network coverage.
 To create an account for The Things Stack v3 follow this [link](https://account.thethingsnetwork.org/). 
 
 
@@ -49,7 +49,7 @@ Follow the instructions in the [LSN50 manual](https://www.dragino.com/downloads/
 ## Getting the Data on the Web
 
 There are several ways to make the sensor data publically available on the internet.
-The easiest is to a use an IoT dashboard like [tago.io](tago.io). 
+The easiest is to a use an IoT dashboard like [tago.io](https://tago.io/). 
 You can make a free account there but it has some limitations on the total data that can be uploaded.
 Follow these [instructions](https://www.thethingsindustries.com/docs/integrations/webhooks/creating-webhooks/) on how to create a webhook to visualize your data on tago.io.
 
