@@ -1,10 +1,9 @@
 # Floßlände Water Sensor Project
-> Project documentation for the installation of a water sensor at Floßlände Munich carried out in April 2021
 
 The motivation for this project was to provide information about the water level for river surfers at Floßlände Munich. 
 The sensor measures the water level and water temperature and sends the data via LoRaWAN. The data is then made publically available on a website.
 
-![](\pics\IMG_20210402_162449.jpg)
+![](/pics/IMG_20210402_162449.jpg)
 
 ## Bill of Materials
 
@@ -25,7 +24,7 @@ Both sensors can be read out by the LSN50v2 in the default working mode (MOD=1).
 
 ![](/pics/IMG_20210402_145948.jpg)
 ![](/pics/IMG_20210402_162306.jpg)
-![](/schematic/SN50v2_schematic.PNG)
+![](/schematic/LSN50v2_schematic.PNG)
 
 
 ## LoRaWAN Network Setup
@@ -33,7 +32,7 @@ Both sensors can be read out by the LSN50v2 in the default working mode (MOD=1).
 We use the free cuommunity edition of [The Things Stack v3](https://www.thethingsnetwork.org/docs/the-things-stack/index.html) LoRaWAN network server. 
 You have to make an account there and then register both the node and the gateway. 
 In principle the node data can also be received by other already existing gateways on The Things Network (see the [global coverage map](https://www.thethingsnetwork.org/map) but we installed our own gateway nearby to guarantee network coverage.
-To create an account for The Things Network and The Things Stack v3 follow this [link](https://account.thethingsnetwork.org/). 
+To create an account for The Things Stack v3 follow this [link](https://account.thethingsnetwork.org/). 
 
 
 ### LPS8 Gateway
@@ -44,12 +43,13 @@ Follow the instructions on The Things Industries website [here](https://www.thet
 
 The LSN50 can join The Things Network via Over-The-Air-Activation (OTAA) without any extra configuration it just needs to be registered as a device on The Things Stack. 
 Follow the instructions in the [LSN50 manual](https://www.dragino.com/downloads/index.php?dir=LSN50-LoRaST/) and on The Things Industries website [here](https://www.thethingsindustries.com/docs/devices/adding-devices/) on how to do this. 
+
 **Note: There is a sticker inside the packaging box of the LSN50 with the needed DEV EUI and APP KEY that can easily be overseen.**
 
 ## Getting the Data on the Web
 
 There are several ways to make the sensor data publically available on the internet.
-The easiest is to a use an IoT dashboard like [tago.io][tago.io]. 
+The easiest is to a use an IoT dashboard like [tago.io](tago.io). 
 You can make a free account there but it has some limitations on the total data that can be uploaded.
 Follow these [instructions](https://www.thethingsindustries.com/docs/integrations/webhooks/creating-webhooks/) on how to create a webhook to visualize your data on tago.io.
 
