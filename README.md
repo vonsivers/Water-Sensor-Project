@@ -37,7 +37,7 @@ For outdoor use the casing of the contacts probably needs to be made waterproof.
 ### Float Based Sensors (e.g. [ebay](https://www.ebay.de/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313&_nkw=tankgeber&_sacat=0))
 
 I came across this type of sensor since it was shown as an example in the LSN50v2 manual.
-They are available in differnt lengths and mainly used to measure the level fuel tanks of boats, hence the top flange.
+They are available in different lengths and mainly used to measure the liquid level in fuel tanks of boats, hence the top flange.
 It consist of a series of resistors that are connected by reed switches, the float contains a magnet that activates the switches so the total resistance changes depending on the float height. 
 One disadvantage is the relatively low resistance (240-33Ohm for US, 0-190Ohm for EU standard) which generates only a small voltage drop when put in series with another current limiting resistor. 
 I chose the US version because of the higher resistance.
@@ -70,9 +70,9 @@ Follow the instructions on The Things Industries website [here](https://www.thet
 ### LSN50v2
 
 The LSN50v2 can join The Things Network via Over-The-Air-Activation (OTAA) without any extra configuration it just needs to be registered as a device on The Things Stack. 
-Follow the instructions in the [LSN50 manual](https://www.dragino.com/downloads/index.php?dir=LSN50-LoRaST/) and on The Things Industries website [here](https://www.thethingsindustries.com/docs/devices/adding-devices/) on how to do this. 
+Follow the instructions in the [LSN50v2 manual](https://www.dragino.com/downloads/index.php?dir=LSN50-LoRaST/) and on The Things Industries website [here](https://www.thethingsindustries.com/docs/devices/adding-devices/) on how to do this. 
 
-**Note: There is a sticker inside the packaging box of the LSN50 with the needed DEV EUI and APP KEY that can easily be overseen.**
+**Note: There is a sticker inside the packaging box of the LSN50v2 with the needed DEV EUI and APP KEY that can easily be overseen.**
 
 ## Water Level Calculation
 
