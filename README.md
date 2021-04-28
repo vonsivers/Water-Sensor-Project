@@ -1,6 +1,6 @@
-# Floßlände Water Sensor Project
+# Water Sensor Project
 
-The motivation for this project was to provide information about the water level for river surfers at Floßlände Munich. 
+The motivation for this project was to provide information about the water level for river surfers. 
 The sensor measures the water level and water temperature and sends the data via LoRaWAN. The data is then made publically available on a website.
 
 ![](/pics/IMG_20210402_162449.jpg)
@@ -17,7 +17,7 @@ The sensor measures the water level and water temperature and sends the data via
 
 ## Sensor Selection
 
-I tested several sensors to measure the water level or water flow.
+I considered several sensors to measure the water level or water flow.
 
 ### Hall-effect Based Water Flow Sensor (e.g. [amazon](https://www.amazon.de/gp/product/B07QHYDJZK/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1))
 
